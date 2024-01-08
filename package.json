@@ -1,0 +1,32 @@
+{
+  "name": "clickup-node-sdk",
+  "version": "0.1.0",
+  "description": "A Node SDK for ClickUp",
+  "main": "dist/index.js",
+  "files": [
+    "./dist",
+    "./LICENSE",
+    "./package.json",
+    "./README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.mjs.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mjburtenshaw/clickup-node-sdk.git"
+  },
+  "author": {
+    "name": "Malcolm Burtenshaw",
+    "email": "mjburtenshaw@gmail.com",
+    "url": "https://www.github.com/mjburtenshaw"
+  },
+  "bugs": {
+    "email": "mjburtenshaw@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
